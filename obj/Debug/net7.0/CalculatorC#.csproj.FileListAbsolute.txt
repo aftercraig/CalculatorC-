@@ -1,0 +1,14 @@
+C:\Users\Pavel\Desktop\CalculatorC#\bin\Debug\net7.0\CalculatorC#.exe
+C:\Users\Pavel\Desktop\CalculatorC#\bin\Debug\net7.0\CalculatorC#.deps.json
+C:\Users\Pavel\Desktop\CalculatorC#\bin\Debug\net7.0\CalculatorC#.runtimeconfig.json
+C:\Users\Pavel\Desktop\CalculatorC#\bin\Debug\net7.0\CalculatorC#.dll
+C:\Users\Pavel\Desktop\CalculatorC#\bin\Debug\net7.0\CalculatorC#.pdb
+C:\Users\Pavel\Desktop\CalculatorC#\obj\Debug\net7.0\CalculatorC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pavel\Desktop\CalculatorC#\obj\Debug\net7.0\CalculatorC#.AssemblyInfoInputs.cache
+C:\Users\Pavel\Desktop\CalculatorC#\obj\Debug\net7.0\CalculatorC#.AssemblyInfo.cs
+C:\Users\Pavel\Desktop\CalculatorC#\obj\Debug\net7.0\CalculatorC#.csproj.CoreCompileInputs.cache
+C:\Users\Pavel\Desktop\CalculatorC#\obj\Debug\net7.0\CalculatorC#.dll
+C:\Users\Pavel\Desktop\CalculatorC#\obj\Debug\net7.0\refint\CalculatorC#.dll
+C:\Users\Pavel\Desktop\CalculatorC#\obj\Debug\net7.0\CalculatorC#.pdb
+C:\Users\Pavel\Desktop\CalculatorC#\obj\Debug\net7.0\CalculatorC#.genruntimeconfig.cache
+C:\Users\Pavel\Desktop\CalculatorC#\obj\Debug\net7.0\ref\CalculatorC#.dll
