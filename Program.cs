@@ -1,54 +1,75 @@
-﻿using System;
+﻿public class Calculator {
+        public double Sum(double a, double b){
+        return a + b;
+    }
+            public double Minus(double a, double b){
+        return a - b;
+    }
+            public double Multpily(double a, double b){
+        return a * b;
+    }
+            public double Devid(double a, double b){
+        return a / b;
+    }
+}
 
-public class Calculator
+public class Request
 {
-    static void Main(string[] args)
+    Calculator calculate;
+
+    public Request(Calculator calculate){
+        this.calculate = calculate;
+    }
+    public void Req()
     {
+
         while (true)
         {
             Console.Clear();
-            double firstValue, secondValue;
+            double a, b;
             string action;
+
+
             try
             {
-                Console.WriteLine("Первое число:");
-                firstValue = double.Parse(Console.ReadLine());
+                Console.WriteLine("Введите первое число");
+                a = double.Parse(Console.ReadLine());
 
-                Console.WriteLine("Операция (+, -, *, /):");
+                Console.WriteLine("Введите действие");
                 action = Console.ReadLine();
 
-                Console.WriteLine("Второе число:");
-                secondValue = double.Parse(Console.ReadLine());
+                Console.WriteLine("Введите второе число");
+                b = double.Parse(Console.ReadLine());
             }
             catch (Exception)
             {
-                Console.WriteLine("Введен неизвестный символ");
+                Console.WriteLine("Ошибка. Введено не число");
                 Console.ReadLine();
                 continue;
             }
             switch (action)
             {
                 case "+":
-                    Console.WriteLine(firstValue + secondValue);
+                    Console.WriteLine(a + b);
                     break;
 
                 case "-":
-                    Console.WriteLine(firstValue - secondValue);
+                    Console.WriteLine(a - b);
                     break;
 
                 case "*":
-                    Console.WriteLine(firstValue * secondValue);
+                    Console.WriteLine(a * b);
                     break;
 
                 case "/":
 
-                    if (secondValue == 0)
+                    if (b == 0)
                     {
-                        Console.WriteLine("Деление на 0 ошибочно");
+                        Console.WriteLine("Делить на 0 нельзя");
                     }
                     else
                     {
-                        Console.WriteLine(firstValue / secondValue);
+                        Console.WriteLine(a / b);
                     }
                     break;
 
@@ -58,5 +79,14 @@ public class Calculator
             }
             Console.ReadLine(); 
         }
+
+    }
+}
+
+class Program {
+    static void Main(string[] args){
+        Calculator calculate = new Calculator();
+        Request req = new Request(calculate);
+        req.Req();
     }
 }
